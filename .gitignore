@@ -1,0 +1,114 @@
+# OS generated files #
+######################
+.DS_Store
+Thumbs.db
+
+# Logs and runtime files #
+##########################
+*.log
+*.pid
+*.seed
+*.pid.lock
+tmp/
+
+# Application dependencies #
+############################
+node_modules/
+vendor/
+coverage/
+
+# Python-related files #
+########################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+.eggs/
+*.sqlite3
+
+# Terraform files #
+###################
+# *.tfstate
+# *.tfstate.*
+# crash.log
+.terraform/
+# terraform.tfvars
+*.backup
+
+# Ansible files #
+#################
+*.retry
+*.vault
+*.cfg
+
+# Kubernetes and Helm #
+#######################
+*.kubeconfig
+*.helmrelease
+*.tmp
+*.out
+
+# Cloud-specific #
+##################
+.aws/
+.gcloud/
+.azure/
+*.pem
+*.key
+.env
+*.credentials
+
+# Docker #
+##########
+docker-compose.override.yml
+.dockerignore
+*.tar
+
+# CI/CD pipelines #
+###################
+.pipelines/
+cache/
+dist/
+build/
+
+# VS Code #
+###########
+.vscode/
+.code-workspace
+*.code-workspace
+
+# Editor specific #
+###################
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Dev Containers #
+##################
+.devcontainer/
+.devcontainer.json
+
+# Binaries #
+############
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.class
+*.so
+
+# Misc #
+########
+.envrc
+.secret
+*.iml
+*.log
+logs/
+node_modules/
+coverage/
